@@ -14,12 +14,12 @@ BLUE="\033[0;36m"    # Spinner color
 RESET="\033[0m"      # Reset color back to normal
 
 # ============================================================
-# ðSpinner frames (ASCII only - works everywhere)
+# ï¿½Spinner frames (ASCII only - works everywhere)
 # ============================================================
-SPINNER_FRAMES=('|' '/' '-' '\\')
+SPINNER_FRAMES=('|' '/' '-' '\')
 
 # ============================================================
-# ð© Store spinner PID
+# ï¿½ Store spinner PID
 # We'll save the background process ID to stop it later.
 # ============================================================
 spinner_pid=
@@ -70,14 +70,14 @@ stop_spinner() {
 }
 
 # ============================================================
-# ðTrap
+# ï¿½Trap
 # ------------------------------------------------------------
 # Ensures spinner stops automatically when script exits.
 # ============================================================
 trap stop_spinner EXIT
 
 # ============================================================
-# ðExample usage (for testing)
+# ï¿½Example usage (for testing)
 # ------------------------------------------------------------
 # Uncomment these lines if you want to test directly:
 # ============================================================
